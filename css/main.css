@@ -1,19 +1,15 @@
 * {
   background-color: beige;
 }
-
-
 header {
   background-color: brown;
   display: flex;
 }
-
 ul {
     display: flex
     list-style: none;
 padding-left: 0;
 }
-
 li {
 margin-left: 3rem;
 }
