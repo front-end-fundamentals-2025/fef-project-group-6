@@ -1,15 +1,20 @@
 * {
   background-color: beige;
+  color: rgb(43, 28, 28);
 }
+
 header {
-  background-color: brown;
+  background-color: rgb(102, 37, 37);
   display: flex;
 }
 ul {
-    display: flex
-    list-style: none;
-padding-left: 0;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
 }
 li {
-margin-left: 3rem;
+  margin-left: 3rem;
+}
+main {
+  background-color: beige;
 }
