@@ -1,11 +1,18 @@
 * {
-  background-color: beige;
-  color: rgb(43, 28, 28);
+  color: rgb(255, 255, 255);
 }
 
 header {
   background-color: rgb(102, 37, 37);
   display: flex;
+  font-weight: 600;
+  height: 8rem;
+  margin-left: 0rem;
+}
+
+p {
+  margin-left: 12rem;
+  font-size: x-large;
 }
 ul {
   display: flex;
@@ -13,8 +20,18 @@ ul {
   padding-left: 0;
 }
 li {
-  margin-left: 3rem;
+  margin-left: 6rem;
+  margin-top: 1rem;
 }
 main {
-  background-color: beige;
+  font-size: x-large;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+h1 {
+  color: brown;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
