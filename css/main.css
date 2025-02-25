@@ -8,12 +8,29 @@ header {
   font-weight: 600;
   height: 8rem;
   margin-left: 0rem;
+  justify-content: center;
+}
+
+.header {
+  margin-left: 0;
+  text-align: center;
+}
+
+.navigation {
+  margin-left: 0;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.navigation1 {
+margin-left: 0;
 }
 
 p {
   margin-left: 12rem;
   font-size: x-large;
 }
+
 ul {
   display: flex;
   list-style: none;
@@ -34,4 +51,8 @@ h1 {
 .contact-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.images {
+
 }
