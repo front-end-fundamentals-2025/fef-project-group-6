@@ -2,6 +2,7 @@
   color: rgb(255, 255, 255);
 }
 
+/*header */
 header {
   background-color: rgb(102, 37, 37);
   display: flex;
@@ -23,7 +24,7 @@ header {
 }
 
 .navigation1 {
-margin-left: 0;
+  margin-left: 0;
 }
 
 p {
@@ -36,23 +37,54 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+
 li {
   margin-left: 6rem;
   margin-top: 1rem;
 }
+
 main {
   font-size: x-large;
   margin-left: 10rem;
   margin-top: 3rem;
 }
+
 h1 {
   color: brown;
-}
-.contact-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+} 
+
+/*panintings for sale page*/ 
+
+@media screen and (max-width: 100px) {
+  .contact-container, 
+  ul {
+    flex-direction: column; 
+    align-items: start; 
+  }
+
+  li {
+    margin: 0; 
+    margin-bottom: 1rem; 
+  }
 }
 
+@media screen and (min-width: 530px){
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1025px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+} 
+
+
+/* images size*/ 
 .images {
+  width: 100%
 
 }
+
