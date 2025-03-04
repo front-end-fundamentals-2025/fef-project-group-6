@@ -43,32 +43,29 @@ li {
   margin-top: 1rem;
 }
 
+
+/*panintings for sale page*/
+
 main {
   font-size: x-large;
-  margin-left: 10rem;
+  margin-left: 0rem;
   margin-top: 3rem;
 }
 
-h1 {
-  color: brown;
-} 
-
-/*panintings for sale page*/ 
-
 @media screen and (max-width: 100px) {
-  .contact-container, 
+  .contact-container,
   ul {
-    flex-direction: column; 
-    align-items: start; 
+    flex-direction: column;
+    align-items: start;
   }
 
   li {
-    margin: 0; 
-    margin-bottom: 1rem; 
+    margin: 0;
+    margin-bottom: 1rem;
   }
 }
 
-@media screen and (min-width: 530px){
+@media screen and (min-width: 530px) {
   .contact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -79,12 +76,34 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
-} 
-
-
-/* images size*/ 
-.images {
-  width: 100%
-
 }
 
+h1 {
+  color: brown;
+  text-align: center;
+}
+h2 {
+  color: brown;
+  text-align: center;
+}
+h4 {
+  color: brown;
+  text-align: center;
+}
+
+/*information page about painting*/
+h5 {
+  color: brown;
+  text-align: left;
+}
+
+/* images size*/
+.images {
+  width: 100%;
+}
+.painting2 {
+  width: 100%;
+  margin-top: 100;
+  margin-top: 100px;
+  margin-left: -400px;
+}
