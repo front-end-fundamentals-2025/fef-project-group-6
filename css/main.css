@@ -43,7 +43,6 @@ li {
   margin-top: 1rem;
 }
 
-
 /*panintings for sale page*/
 
 main {
@@ -102,8 +101,8 @@ h5 {
   width: 100%;
 }
 .painting2 {
-  width: 100%;
-  margin-top: 100;
+  width: 50%;
+  margin-top: 0rem;
   margin-top: 100px;
-  margin-left: -400px;
+  margin-left: 0px;
 }
