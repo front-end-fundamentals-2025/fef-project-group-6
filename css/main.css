@@ -1,5 +1,6 @@
 * {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 /*header */
@@ -15,6 +16,7 @@ header {
 .header {
   margin-left: 0;
   text-align: center;
+  padding-left: 3rem;
 }
 
 .navigation {
@@ -36,11 +38,21 @@ ul {
   display: flex;
   list-style: none;
   padding-left: 0;
+  justify-content: center;
 }
 
 li {
   margin-left: 6rem;
   margin-top: 1rem;
+}
+
+.shopping-cart-icn {
+  padding-left: 0rem;
+  padding-right: 0;
+  padding-top: 5rem;
+  margin-right: 0;
+  width: 2rem;
+  height: fit-content;
 }
 
 /*panintings for sale page*/
@@ -94,15 +106,27 @@ h4 {
 h5 {
   color: brown;
   text-align: left;
+  margin-left: 40px;
+  font-size: xx-large;
+}
+
+.painting2 {
+  width: 50%;
+  margin-top: 0rem;
+  margin-top: 0;
+  margin-left: 0px;
 }
 
 /* images size*/
 .images {
   width: 100%;
 }
-.painting2 {
-  width: 50%;
-  margin-top: 0rem;
-  margin-top: 100px;
-  margin-left: 0px;
+
+/* animation*/
+
+li {
+  transition: color 0.2s ease-in-out;
+}
+li:hover {
+  color: bisque;
 }
