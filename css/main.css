@@ -111,12 +111,6 @@ h3 {
 }
 
 /*information page about painting2*/
-h4 {
-  color: brown;
-  text-align: left;
-  margin-left: 40px;
-  font-size: xx-large;
-}
 
 .painting2 {
   width: 50%;
@@ -125,7 +119,7 @@ h4 {
   margin-left: 0px;
 }
 
-h5 {
+h4 {
   color: brown;
   text-align: center;
   font-size: xxx-large;
@@ -159,4 +153,23 @@ li:hover {
   display: block;
   margin: 0 auto;
 }
+
+/*animation*/ 
+#index-logo {
+  animation-name: shake;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes shake {
+  25% {
+    transform: scale(1.2);
+  }
+
+  40% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+} 
+
+
 
