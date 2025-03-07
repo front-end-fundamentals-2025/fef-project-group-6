@@ -76,12 +76,20 @@ main {
   }
 }
 
+@media screen and (min-width: 512px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (min-width: 530px) {
   .contact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media screen and (min-width: 1025px) {
   .contact-container {
     display: grid;
@@ -102,7 +110,7 @@ h3 {
   text-align: center;
 }
 
-/*information page about painting*/
+/*information page about painting2*/
 h4 {
   color: brown;
   text-align: left;
@@ -145,7 +153,10 @@ li:hover {
   margin-right: 75px;
 }
 
+/*help from chatgpt on centering the img, https://chatgpt.com/share/67caef2b-26f0-8009-b08c-93545ba64576*/
 .us {
-  width: 50%;
-  align-content: center;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
 }
+
