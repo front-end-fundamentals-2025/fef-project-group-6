@@ -85,15 +85,21 @@ h2 {
   color: brown;
   text-align: center;
 }
-h4 {
+h3 {
   color: brown;
   text-align: center;
 }
 
 /*information page about painting*/
-h5 {
+h4 {
   color: brown;
   text-align: left;
+}
+
+h5 {
+  color: brown;
+  text-align: center;
+  font-size: xxx-large;
 }
 
 /* images size*/
@@ -105,4 +111,17 @@ h5 {
   margin-top: 0rem;
   margin-top: 100px;
   margin-left: 0px;
+}
+
+/* about us page*/
+.text-aboutus {
+  color: brown;
+  text-align: center;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.us {
+  width: 50%;
+  align-content: center;
 }
