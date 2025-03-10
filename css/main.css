@@ -142,11 +142,10 @@ h3 {
   text-align: center;
 }
 
-
 /*information page about painting2*/
 
 .painting2 {
-  width: 50%;
+  width: 100%;
   margin-top: 0rem;
   margin-top: 0;
   margin-left: 0px;
@@ -159,23 +158,13 @@ h4 {
   margin-top: 0;
 }
 
-.content-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  max-width: 800px;
-  margin: 20px auto;
-}
-
 .Information {
   color: brown;
-  max-width: 300px;
-  border-radius: 8px;
+  max-width: 400px;
 }
-
-.Information {
-  display: flex;
-  justify-content: flex-end;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* images size*/
