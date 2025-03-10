@@ -156,6 +156,7 @@ h4 {
   text-align: center;
   font-size: xxx-large;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .Information {
@@ -168,7 +169,25 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+@media screen and (max-width: 1000px) {
+  .contact-container,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
 
+  li {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+}
 /* images size*/
 .images {
   width: 100%;
