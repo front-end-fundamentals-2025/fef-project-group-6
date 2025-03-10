@@ -3,6 +3,31 @@
   text-decoration: none;
 }
 
+/*index*/
+h5 {
+  color: brown;
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+}
+
+h6 {
+  color: brown;
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+}
+
+.homepage-pic {
+  width: 250px;
+}
+
+.homepage-pics {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  gap: 0;
+}
 /*header */
 header {
   background-color: rgb(102, 37, 37);
@@ -117,6 +142,7 @@ h3 {
   text-align: center;
 }
 
+
 /*information page about painting2*/
 
 .painting2 {
@@ -130,6 +156,7 @@ h4 {
   color: brown;
   text-align: center;
   font-size: xxx-large;
+  margin-top: 0;
 }
 
 .content-container {
@@ -144,6 +171,11 @@ h4 {
   color: brown;
   max-width: 300px;
   border-radius: 8px;
+}
+
+.Information {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* images size*/
