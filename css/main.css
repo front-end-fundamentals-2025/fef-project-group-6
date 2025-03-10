@@ -96,6 +96,13 @@ main {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.images {
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.images:hover {
+  transform: scale(1.1); /* Adjust scale for desired zoom level */
+}
 
 h1 {
   color: brown;
@@ -123,6 +130,20 @@ h4 {
   color: brown;
   text-align: center;
   font-size: xxx-large;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.Information {
+  color: brown;
+  max-width: 300px;
+  border-radius: 8px;
 }
 
 /* images size*/
@@ -154,7 +175,7 @@ li:hover {
   margin: 0 auto;
 }
 
-/*animation*/ 
+/*animation*/
 #index-logo {
   animation-name: shake;
   animation-duration: 1s;
@@ -169,7 +190,4 @@ li:hover {
   40% {
     transform: rotate(-20deg) scale(1.2);
   }
-} 
-
-
-
+}
