@@ -215,3 +215,13 @@ li:hover {
     transform: rotate(-20deg) scale(1.2);
   }
 }
+
+/*footer*/
+
+footer {
+  background-color: rgb(102, 37, 37);
+  font-weight: 600;
+  height: 10rem;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+}
