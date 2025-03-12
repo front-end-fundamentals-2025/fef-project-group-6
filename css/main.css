@@ -86,6 +86,7 @@ main {
   font-size: x-large;
   margin-left: 0rem;
   margin-top: 3rem;
+  margin-bottom: 20rem;
 }
 
 @media screen and (max-width: 100px) {
@@ -227,5 +228,6 @@ footer {
 }
 
 .footer {
-  
+  font-size: x-small;
+  margin-left: 1rem;
 }
