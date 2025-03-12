@@ -152,6 +152,10 @@ h3 {
   margin-left: 0px;
 }
 
+.painting22 {
+  width: 50%;
+}
+
 h4 {
   color: brown;
   text-align: center;
@@ -171,6 +175,11 @@ h4 {
   grid-template-columns: 1fr 1fr;
 }
 
+#button {
+  margin-left: 31rem;
+  size-adjust: 20px;
+  color: brown;
+}
 /* images size*/
 .images {
   width: 100%;
@@ -231,4 +240,14 @@ footer {
   font-size: medium;
   margin-top: 10rem;
   margin-left: 1rem;
+}
+
+/*shoppingcart page CSS*/
+
+#cart-page {
+  margin-left: 0;
+}
+
+#purchase {
+  display: none;
 }
