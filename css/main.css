@@ -28,6 +28,13 @@ h6 {
   overflow: auto;
   gap: 0;
 }
+
+.category {
+  color: brown;
+  border: 1px solid black;
+  display: inline;
+  padding: 1px;
+}
 /*header */
 header {
   background-color: rgb(102, 37, 37);
@@ -185,10 +192,6 @@ h3 {
   margin-left: 0px;
 }
 
-.painting22 {
-  width: 50%;
-}
-
 h4 {
   color: brown;
   text-align: center;
@@ -200,20 +203,23 @@ h4 {
 .information {
   color: brown;
   text-align: center;
-  margin: 0;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+/*  */
 #button {
-  display: flex;
+  /* display: flex; */
   size-adjust: 20px;
+  border-radius: 5px;
   color: brown;
   justify-content: center;
 }
+
 /* images size*/
 .images {
   width: 100%;
@@ -282,7 +288,15 @@ footer {
   margin-left: 0;
 }
 
-/* 
-#purchase-painting {
-  display: none;
-}  */
+.painting22 {
+  width: 30%;
+}
+
+.h4-2 {
+  text-align: left;
+}
+
+.info {
+  color: brown;
+  margin-left: 0;
+}
