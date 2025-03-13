@@ -2,6 +2,7 @@ const buttonButton = document.getElementById("button");
 const purchaseElement = document.getElementById("purchase-painting");
 const trashcanButton = document.getElementById("trashcan");
 
+/*help from classmate Hedda and Emelie, line 6 - 13*/
 buttonButton?.addEventListener("click", function () {
   localStorage.setItem("product", "true");
 });
