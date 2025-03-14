@@ -3,7 +3,8 @@
   text-decoration: none;
 }
 
-/*index*/
+/*home page*/
+
 h5 {
   color: brown;
   text-align: center;
@@ -20,6 +21,7 @@ h6 {
 
 .homepage-pic {
   width: 250px;
+  height: 250px;
 }
 
 .homepage-pics {
@@ -29,13 +31,42 @@ h6 {
   gap: 0;
 }
 
-.category {
+.category a {
   color: brown;
-  border: 1px solid black;
-  display: inline;
-  padding: 1px;
+  font-size: 150%;
 }
+
+.categories-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+@media screen and (min-width: 700px) {
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 /*header */
+
 header {
   background-color: rgb(102, 37, 37);
   display: flex;
@@ -87,7 +118,8 @@ li {
   height: fit-content;
 }
 
-/* Rollong hedlines gottenhelp from https://www.youtube.com/watch?v=nzl_eX_3dvk*/
+/* Rollong hedlines gotten help from https://www.youtube.com/watch?v=nzl_eX_3dvk*/
+
 .news-container {
   position: absolute;
   margin-top: 7rem;
@@ -162,12 +194,15 @@ main {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* gotten help from  */
+
 .images {
-  transition: transform 0.3s ease; /* Smooth transition effect */
+  transition: transform 0.3s ease;
 }
 
 .images:hover {
-  transform: scale(1.1); /* Adjust scale for desired zoom level */
+  transform: scale(1.1);
 }
 
 h1 {
@@ -211,9 +246,8 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-/*  */
+
 #button {
-  /* display: flex; */
   size-adjust: 20px;
   border-radius: 5px;
   color: brown;
@@ -221,6 +255,7 @@ h4 {
 }
 
 /* images size*/
+
 .images {
   width: 100%;
 }
@@ -235,6 +270,7 @@ li:hover {
 }
 
 /* about us page*/
+
 .text-aboutus {
   color: brown;
   text-align: center;
@@ -242,7 +278,14 @@ li:hover {
   margin-right: 75px;
 }
 
+.founders {
+  color: brown;
+  font-size: small;
+  margin-left: 32%;
+  margin-top: -1rem;
+}
 /*help from chatgpt on centering the img, https://chatgpt.com/share/67caef2b-26f0-8009-b08c-93545ba64576*/
+
 .us {
   width: 40%;
   display: block;
@@ -274,12 +317,13 @@ footer {
   height: 10rem;
   margin-left: 0;
   margin-bottom: 0rem;
+  text-align: center;
+  padding-top: 2rem;
 }
-
 .contact {
   font-size: medium;
-  margin-top: 10rem;
   margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 /*shoppingcart page CSS*/
@@ -291,11 +335,9 @@ footer {
 .painting22 {
   width: 30%;
 }
-
 .h4-2 {
   text-align: left;
 }
-
 .info {
   color: brown;
   margin-left: 0;
