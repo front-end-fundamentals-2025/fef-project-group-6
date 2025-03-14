@@ -10,6 +10,7 @@ h5 {
   text-align: center;
   font-size: xx-large;
   margin: 0;
+  margin-bottom: 40px;
 }
 
 h6 {
@@ -17,6 +18,7 @@ h6 {
   text-align: center;
   font-size: xx-large;
   margin: 0;
+  margin-top: 40px;
 }
 
 .homepage-pic {
@@ -34,6 +36,16 @@ h6 {
 .category a {
   color: brown;
   font-size: 150%;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.category {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .categories-container {
@@ -41,27 +53,23 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
   height: 50px;
-}
-@media screen and (min-width: 700px) {
-  .categories-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+  width: 100%;
+  margin-top: 10px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 350px) {
   .categories-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media screen and (min-width: 1000px) {
   .categories-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -328,10 +336,6 @@ footer {
 
 /*shoppingcart page CSS*/
 
-#cart-page {
-  margin-left: 0;
-}
-
 .painting22 {
   width: 30%;
 }
@@ -341,4 +345,8 @@ footer {
 .info {
   color: brown;
   margin-left: 0;
+}
+
+.main-shopping {
+  margin-top: 2rem;
 }
