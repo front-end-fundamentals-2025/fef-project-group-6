@@ -5,25 +5,22 @@
 
 /*home page*/
 
-h5 {
-  color: brown;
-  text-align: center;
-  font-size: xx-large;
-  margin: 0;
-  margin-bottom: 40px;
-}
-
+h5,
 h6 {
   color: brown;
   text-align: center;
   font-size: xx-large;
   margin: 0;
-  margin-top: 40px;
+  margin-bottom: 5%;
+}
+
+h6 {
+  margin-top: 5%;
 }
 
 .homepage-pic {
-  width: 250px;
-  height: 250px;
+  width: 10em;
+  height: 10em;
 }
 
 .homepage-pics {
@@ -53,10 +50,9 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  height: 50px;
+  gap: 30%;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 350px) {
@@ -78,10 +74,15 @@ h6 {
 header {
   background-color: rgb(102, 37, 37);
   display: flex;
+  flex-wrap: flex;
   font-weight: 600;
   height: 8rem;
   margin-left: 0rem;
   justify-content: center;
+}
+
+body {
+  margin: 0;
 }
 
 .header {
@@ -124,40 +125,6 @@ li {
   margin-right: 0;
   width: 2rem;
   height: fit-content;
-}
-
-/* Rollong hedlines gotten help from https://www.youtube.com/watch?v=nzl_eX_3dvk*/
-
-.news-container {
-  position: absolute;
-  margin-top: 7rem;
-  left: 0;
-  right: 0;
-  box-shadow: 0 4px 8px -4px rgb(102, 37, 37);
-  height: 4rem;
-  display: flex;
-  align-items: center;
-}
-
-.news-container ul {
-  display: flex;
-  list-style: none;
-  margin: 5;
-  animation: scroll 25s infinite linear;
-}
-.news-container ul li {
-  color: black;
-  font-size: x-large;
-  white-space: nowrap;
-}
-
-@keyframes scroll {
-  from {
-    transform: translateX(150%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
 }
 
 /*panintings for sale page*/
@@ -230,9 +197,9 @@ h3 {
 
 .painting2 {
   width: 100%;
-  margin-top: 0rem;
   margin-top: 0;
-  margin-left: 0px;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 h4 {
@@ -256,8 +223,8 @@ h4 {
 }
 
 #button {
-  size-adjust: 20px;
-  border-radius: 5px;
+  size-adjust: 20%;
+  border-radius: 5%;
   color: brown;
   justify-content: center;
 }
@@ -282,8 +249,8 @@ li:hover {
 .text-aboutus {
   color: brown;
   text-align: center;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .founders {
