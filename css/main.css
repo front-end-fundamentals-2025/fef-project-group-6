@@ -47,13 +47,19 @@ h6 {
 }
 
 .categories-container {
-  margin-top: 5rem;
+  /*margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30%;
   width: 100%;
-  margin-top: 0;
+  margin-top: 0;*/
+  /*help from chatgpt for better responsiveness*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 350px) {
