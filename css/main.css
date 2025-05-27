@@ -47,13 +47,6 @@ h6 {
 }
 
 .categories-container {
-  /*margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30%;
-  width: 100%;
-  margin-top: 0;*/
   /*help from chatgpt for better responsiveness*/
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -77,6 +70,11 @@ h6 {
 }
 
 /*header */
+.header {
+  margin-left: 0;
+  text-align: center;
+  padding-left: 3rem;
+}
 
 header {
   background-color: rgb(102, 37, 37);
@@ -92,16 +90,11 @@ body {
   margin: 0;
 }
 
-.header {
-  margin-left: 0;
-  text-align: center;
-  padding-left: 3rem;
-}
-
 .navigation {
   margin-left: 0;
   margin-right: 30px;
   text-align: center;
+  font-size: small;
 }
 
 .navigation1 {
@@ -329,7 +322,7 @@ footer {
   margin-left: 3rem;
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 485px) {
   .painting22 {
     margin-right: 3rem;
   }
