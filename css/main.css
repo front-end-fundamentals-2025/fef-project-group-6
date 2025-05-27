@@ -311,7 +311,7 @@ footer {
 /*shoppingcart page CSS*/
 
 .painting22 {
-  width: 30%;
+  max-width: 20rem;
 }
 .h4-2 {
   text-align: left;
@@ -323,4 +323,14 @@ footer {
 
 .main-shopping {
   margin-top: 2rem;
+}
+
+#purchase-painting {
+  margin-left: 3rem;
+}
+
+@media screen and (min-width: 440px) {
+  .painting22 {
+    margin-right: 3rem;
+  }
 }
